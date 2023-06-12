@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+.container{
+  width:85%;
+  margin: auto;
+}
+.border{
+  border: 1px solid blue;
+}
+.main{
+  background-color: pink;
+}
