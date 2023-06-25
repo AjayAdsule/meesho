@@ -1,8 +1,8 @@
 import React from 'react'
 import './store.css'
-import Category from './Category'
-import Fabric from './Fabric'
-import Color from './Color'
+import Category from '../Filter/Category'
+import Fabric from '../Filter/Fabric'
+import Color from '../Filter/Color'
 import Card from './Card'
 const Mainstores = () => {
   return (
