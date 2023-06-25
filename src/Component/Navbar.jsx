@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <React.Fragment>
-      <nav className='h-[85px]  flex justify-between'>
+      <nav className='h-[85px]  flex justify-between '>
         <div className="left lg:w-[50%]      flex ">
             <div className="image w-[105px]">
                 <img src="https://etimg.etb2bimg.com/photo/87203105.cms" alt="" />
