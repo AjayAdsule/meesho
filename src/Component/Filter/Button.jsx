@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
 const OpenButton = (props) => {
-  const {setIsOpen,isOpen} = props;
+  const { setIsOpen, isOpen } = props;
   const handleOpenClick = () => {
     setIsOpen(true);
     console.log("btn");
@@ -21,16 +21,17 @@ const OpenButton = (props) => {
 };
 
 const CloseButton = (props) => {
-  const {setIsOpen,isOpen} = props;
-  
-  const handleCloseClick=()=>{
-    setIsOpen(false)
-  }
+  const { setIsOpen, isOpen } = props;
+
+  const handleCloseClick = () => {
+    setIsOpen(false);
+  };
   return (
     <React.Fragment>
-      <button 
-      
-       onClick={handleCloseClick} className={`${isOpen? "":"hidden"}`}>
+      <button
+        onClick={handleCloseClick}
+        className={`${isOpen ? "" : "hidden"}`}
+      >
         <FaAngleUp className="w-[50px] h-[22px] " />
       </button>
     </React.Fragment>

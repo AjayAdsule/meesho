@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <React.Fragment>
-      <div className="card border-2 h-[450px]  w-[300px] mt-[80px]">
+      <div className="card  h-[450px]  w-[300px] mt-[80px]">
         <div className="card-image">
           <img
             src="https://images.meesho.com/images/products/270957245/whjzx_400.webp"
@@ -15,7 +15,7 @@ const Card = () => {
           <p className="text-[19px] mt-[15px] text-[rgb(139,139,163)]">
             Stylish Fashionista Men...{" "}
           </p>
-          <h4 className="text-[24px] ml-[8px] font-semibold">
+          <h4 className="text-[22px] ml-[8px] font-semibold">
             ₹ 268
             <span className="text-[14px] text-[rgb(139,139,163)]">onward</span>
           </h4>
